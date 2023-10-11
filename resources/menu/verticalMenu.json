@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "permission": "lihat-dashboard"
+    },
+    {
+      "url": "/data-barang",
+      "name": "Data Barang",
+      "icon": "menu-icon tf-icons bx bxs-package",
+      "slug": "data-barang.index",
+      "permission": "kelola-data-barang"
+    },
+    {
+      "url": "/data-supplier",
+      "name": "Data Supplier",
+      "icon": "menu-icon tf-icons bx bxs-user-badge",
+      "slug": "data-supplier.index",
+      "permission": "lihat-data-supplier"
+    },
+    {
+      "url": "/transaksi-penjualan",
+      "name": "Transaksi Penjualan",
+      "icon": "menu-icon tf-icons bx bxs-dollar-circle",
+      "slug": "transaksi-penjualan.index",
+      "permission": "kelola-data-transaksi-pembelian"
+    },
+    {
+      "url": "/transaksi-pembelian",
+      "name": "Transaksi Pembelian",
+      "icon": "menu-icon tf-icons bx bxs-badge-dollar",
+      "slug": "transaksi-pembelian.index",
+      "permission": "kelola-data-transaksi-penjualan"
+    },
+    {
+      "url": "/laporan",
+      "name": "Laporan",
+      "icon": "menu-icon tf-icons bx bxs-report",
+      "slug": "laporan",
+      "permission": "lihat-laporan-transaksi"
+    }
+  ]
+}
